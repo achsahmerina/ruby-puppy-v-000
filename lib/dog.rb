@@ -11,11 +11,11 @@ class Dog
   def self.clear_all
   end
 
-  def self.all
+  def dog.all
     @@all.each do |dog_name|
       puts dog_name.name
     end
-  
+
   end
 
 end
